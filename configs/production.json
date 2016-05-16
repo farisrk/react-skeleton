@@ -1,0 +1,52 @@
+{
+    "logs": {
+        "path": "/tmp/logs",
+        "config": [
+            {
+                "type": "http",
+                "level": "info",
+                "jsonify": true,
+                "showLevel": true,
+                "showTimestamp": true
+            },
+            {
+                "type": "database",
+                "level": "info",
+                "jsonify": true,
+                "showLevel": true,
+                "showTimestamp": true
+            },
+            {
+                "type": "application",
+                "level": "info",
+                "jsonify": true,
+                "showLevel": true,
+                "showTimestamp": true
+            },
+            {
+                "type": "access",
+                "level": "info",
+                "jsonify": false,
+                "showLevel": false,
+                "showTimestamp": false
+            }
+        ]
+    },
+
+    "smtp": {
+        "host": "smtp.xxx.com",
+        "port": 25
+    },
+    "emailAlert": {
+        "from": "error@xxx.com",
+        "to": [ "farisrk@yahoo.com" ]
+    },
+    "http": [
+    ],
+    "beanstalk": [
+    ],
+    "redis": [
+    ],
+    "mongo": [
+    ]
+}

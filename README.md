@@ -1,0 +1,2 @@
+Skeleton JS starter app
+
